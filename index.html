@@ -1,98 +1,325 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio de Konan Kouassi Yves Junior, étudiant en BTS IDA à IISAN Abidjan et apprenant en développement web.">
+
+  <meta name="description"
+    content="Portfolio de Konan Kouassi Yves Junior, alias Callmeyvo, étudiant en BTS IDA à IISAN Abidjan et apprenant en développement web.">
+
   <meta name="theme-color" content="#101c35">
-  <title>Callmeyvo | Portfolio</title>
+
+  <title>Callmeyvo | Portfolio de Yves Junior</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  
+<div class="page-loader" id="pageLoader" role="status" aria-label="Chargement du portfolio">
+    <div class="loader-content">
+        <div class="loader-logo">YJ.</div>
+        <h2>CALLMEYVO</h2>
+        <p>Bienvenue dans mon univers numérique....</p>
+        <div class="loader-track">
+            <div class="loader-progress"></div>
+        </div>
+        <span class="loader-label">CHARGEMENT...</span>
+    </div>
+</div>
+
+
   <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">YJ</span><span>Callmeyvo<span class="brand-dot">.</span></span></a>
-    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks"><span id="navToggleIcon">☰</span></button>
+
+    <a class="brand" href="index.html">
+      <span class="brand-mark">YJ</span>
+      <span>Callmeyvo<span class="brand-dot">.</span></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false"
+      aria-controls="navLinks">
+      <span id="navToggleIcon">☰</span>
+    </button>
+
     <nav class="nav-links" id="navLinks" aria-label="Navigation principale">
       <a class="active" href="index.html">Accueil</a>
       <a href="apropos.html">À propos</a>
       <a href="competences.html">Compétences</a>
       <a href="projets.html">Projets</a>
       <a href="formation.html">Formation</a>
-      <a class="nav-contact" href="contact.html">Me contacter <span>↗</span></a>
+      <a class="nav-contact" href="contact.html">
+        Me contacter <span>↗</span>
+      </a>
     </nav>
+
   </header>
 
   <main>
+
+    <!-- SECTION D'ACCUEIL -->
     <section class="hero section-wrap">
+
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> Étudiant en informatique · Abidjan</p>
-        <h1>Je construis, <span class="gradient-text">j'apprends</span><br>et je progresse.</h1>
-        <p class="hero-description">Je suis <strong>Konan Kouassi Yves Junior</strong>,  alias <strong>CALLMEYVO</strong> étudiant en BTS Informatique Développement d'Applications à IISAN. Je découvre le développement web, Python et le vibe coding, un projet après l'autre.</p>
+
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          Étudiant en informatique · Abidjan
+        </p>
+
+        <h1>
+          Je construis,
+          <span class="gradient-text">j'apprends</span><br>
+          et je progresse.
+        </h1>
+
+        <p class="hero-description">
+          Je suis <strong>Konan Kouassi Yves Junior</strong>, alias
+          <strong>CALLMEYVO</strong>, étudiant en BTS Informatique
+          Développement d'Applications à IISAN Abidjan.
+          Je développe mes compétences en développement web et en programmation,
+          tout en réalisant des projets pratiques.
+        </p>
+
         <div class="hero-actions">
-          <a class="button button-primary" href="projets.html">Découvrir mes projets <span>↗</span></a>
-          <a class="button button-secondary" href="apropos.html">En savoir plus</a>
+
+          <a class="button button-primary" href="projets.html">
+            Découvrir mes projets <span>↗</span>
+          </a>
+
+          <a class="button button-secondary" href="apropos.html">
+            En savoir plus
+          </a>
+
         </div>
+
         <div class="hero-meta">
-          <span><span class="meta-icon">⌘</span> Développement web</span>
-          <span><span class="meta-icon">✦</span> Apprentissage continu</span>
+
+          <span>
+            <span class="meta-icon">⌘</span>
+            Développement web
+          </span>
+
+          <span>
+            <span class="meta-icon">✦</span>
+            Apprentissage continu
+          </span>
+
         </div>
+
       </div>
+
       <div class="hero-visual">
+
         <div class="visual-glow"></div>
+
         <div class="profile-frame">
-          <img src="assets/images/1.png" alt="Portrait de Konan Kouassi Yves Junior" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
-          <div class="profile-placeholder"><span>YJ</span><small>Ajoute ta photo dans<br>assets/images/photo-profil.png</small></div>
+
+          <img src="assets/images/1.png" alt="Portrait de Konan Kouassi Yves Junior"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+
+          <div class="profile-placeholder">
+            <span>YJ</span>
+            <small>Portrait temporairement indisponible</small>
+          </div>
+
         </div>
-        <div class="floating-card card-top"><span class="floating-icon">{"</span><span><strong>Code & création</strong><small>Apprendre en pratiquant</small></span></div>
-        <div class="floating-card card-bottom"><span class="floating-icon">✦</span><span><strong>En progression</strong><small>HTML · CSS · JavaScript · Python</small></span></div>
-        <div class="visual-caption">PORTFOLIO PERSONNEL <span>2026</span></div>
+
+        <div class="floating-card card-top">
+
+          <span class="floating-icon">{"</span>
+
+          <span>
+            <strong>Code & création</strong>
+            <small>Apprendre en pratiquant</small>
+          </span>
+
+        </div>
+
+        <div class="floating-card card-bottom">
+
+          <span class="floating-icon">✦</span>
+
+          <span>
+            <strong>En progression</strong>
+            <small>HTML · CSS · JavaScript · Python</small>
+          </span>
+
+        </div>
+
+        <div class="visual-caption">
+          PORTFOLIO PERSONNEL <span>2026</span>
+        </div>
+
       </div>
+
     </section>
 
+    <!-- PRÉSENTATION RAPIDE -->
     <section class="section-wrap intro-strip">
-      <div><span class="strip-number">01</span><p>Un étudiant curieux, qui apprend en créant.</p></div>
-      <a href="apropos.html" class="text-link">Mon parcours <span>→</span></a>
+
+      <div>
+        <span class="strip-number">01</span>
+        <p>Un étudiant curieux, qui apprend en créant.</p>
+      </div>
+
+      <a href="apropos.html" class="text-link">
+        Mon parcours <span>→</span>
+      </a>
+
     </section>
 
+    <!-- PROJETS -->
     <section class="section-wrap home-projects">
+
       <div class="section-heading">
-        <div><p class="eyebrow">QUELQUES RÉALISATIONS</p><h2>Des idées mises en pratique.</h2></div>
-        <a href="projets.html" class="text-link">Tous les projets <span>→</span></a>
+
+        <div>
+          <p class="eyebrow">QUELQUES RÉALISATIONS</p>
+          <h2>Des idées mises en pratique.</h2>
+        </div>
+
+        <a href="projets.html" class="text-link">
+          Tous les projets <span>→</span>
+        </a>
+
       </div>
+
       <div class="project-grid">
+
+        <!-- PROJET GAK AGROTECH -->
         <article class="project-card">
-          <a class="project-image" href="https://callmeyvojr.github.io/agrotech/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/agrotech.png" alt="Aperçu du projet Agrotech" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
-            <span class="image-placeholder"><span>APERÇU DU PROJET</span><small>Ajoute assets/images/agrotech.png</small></span>
+
+          <a class="project-image" href="https://callmeyvojr.github.io/agrotech/" target="_blank"
+            rel="noopener noreferrer" aria-label="Visiter le site GAK AGROTECH">
+
+            <img src="assets/images/agrotech.png" alt="Aperçu du site GAK AGROTECH"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+
+            <span class="image-placeholder">
+              <span>APERÇU DU PROJET</span>
+              <small>Ajoute assets/images/agrotech.png</small>
+            </span>
+
             <span class="image-arrow">↗</span>
+
           </a>
-          <div class="project-content"><p class="project-type">SITE WEB · AGRICULTURE</p><h3>Agrotech</h3><p>Une plateforme agricole virtuelle réalisée pour présenter un projet autour du secteur agricole.</p><a class="text-link" href="https://callmeyvojr.github.io/agrotech/" target="_blank" rel="noopener noreferrer">Voir le site <span>→</span></a></div>
+
+          <div class="project-content">
+
+            <p class="project-type">SITE WEB · AGRICULTURE</p>
+
+            <h3>GAK AGROTECH</h3>
+
+            <p>
+              Agrotech est une plateforme agricole virtuelle de GAK AGROTECH,
+              conçue pour présenter ses activités de production,
+              de transformation et de distribution de produits agricoles.
+            </p>
+
+            <a class="text-link" href="https://callmeyvojr.github.io/agrotech/" target="_blank"
+              rel="noopener noreferrer">
+              Voir le site <span>→</span>
+            </a>
+
+          </div>
+
         </article>
+
+        <!-- PROJET HTML ET CSS -->
         <article class="project-card">
-          <a class="project-image project-image-alt" href="https://callmeyvojr.github.io/html_et_css/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/html-css.png" alt="Aperçu du projet HTML et CSS" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
-            <span class="image-placeholder"><span>APERÇU DU PROJET</span><small>Ajoute assets/images/html-css.png</small></span>
+
+          <a class="project-image project-image-alt" href="https://callmeyvojr.github.io/html_et_css/" target="_blank"
+            rel="noopener noreferrer" aria-label="Visiter le site d'apprentissage HTML et CSS">
+
+            <img src="assets/images/html-css.png" alt="Aperçu du projet d'apprentissage HTML et CSS"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+
+            <span class="image-placeholder">
+              <span>APERÇU DU PROJET</span>
+              <small>Ajoute assets/images/html-css.png</small>
+            </span>
+
             <span class="image-arrow">↗</span>
+
           </a>
-          <div class="project-content"><p class="project-type">APPRENTISSAGE · HTML / CSS</p><h3>Comprendre HTML et CSS</h3><p>Un site conçu pour mettre en pratique les bases de la structure HTML et de la mise en forme CSS.</p><a class="text-link" href="https://callmeyvojr.github.io/html_et_css/" target="_blank" rel="noopener noreferrer">Voir le site <span>→</span></a></div>
+
+          <div class="project-content">
+
+            <p class="project-type">APPRENTISSAGE · HTML / CSS</p>
+
+            <h3>Comprendre HTML et CSS</h3>
+
+            <p>
+              Un site conçu pour mettre en pratique les bases de la structure
+              HTML et de la mise en forme CSS, notamment l'organisation
+              du contenu et la présentation des pages.
+            </p>
+
+            <a class="text-link" href="https://callmeyvojr.github.io/html_et_css/" target="_blank"
+              rel="noopener noreferrer">
+              Voir le site <span>→</span>
+            </a>
+
+          </div>
+
         </article>
+
       </div>
+
     </section>
 
+    <!-- APPRENTISSAGE ET IA -->
     <section class="section-wrap learning-banner">
-      <div><p class="eyebrow">CE QUE J'EXPLORE EN CE MOMENT</p><h2>Du code, des essais et beaucoup de curiosité.</h2><p>Je consolide mes bases en développement et je découvre le vibe coding : utiliser des outils d'IA pour explorer des idées, prototyper et apprendre à construire des applications.</p></div>
-      <a class="button button-light" href="competences.html">Voir mes compétences <span>→</span></a>
+
+      <div>
+
+        <p class="eyebrow">CE QUE J'EXPLORE EN CE MOMENT</p>
+
+        <h2>Du code, des essais et beaucoup de curiosité.</h2>
+
+        <p>
+          Je développe mes compétences en programmation et j'explore
+          les outils d'intelligence artificielle pour expérimenter,
+          prototyper des idées et mieux comprendre le développement.
+          Mon objectif est de progresser tout en apprenant à comprendre
+          le code que j'utilise.
+        </p>
+
+      </div>
+
+      <a class="button button-light" href="competences.html">
+        Voir mes compétences <span>→</span>
+      </a>
+
     </section>
+
   </main>
 
+  <!-- PIED DE PAGE -->
   <footer class="site-footer">
-    <a class="brand" href="index.html"><span class="brand-mark">YJ</span><span>Callmeyvo<span class="brand-dot">.</span></span></a>
+
+    <a class="brand" href="index.html">
+      <span class="brand-mark">YJ</span>
+      <span>Callmeyvo<span class="brand-dot">.</span></span>
+    </a>
+
     <p>Construit avec curiosité, ligne après ligne.</p>
+
     <span>© 2026 - Callmeyvo</span>
+
   </footer>
+
   <script src="script.js"></script>
+
 </body>
+
 </html>

@@ -26,3 +26,18 @@ if (navToggle && navToggleIcon && navLinks) {
     if (window.innerWidth > 760) closeMenu();
   });
 }
+
+
+window.addEventListener("load", function () {
+    const loader = document.getElementById("pageLoader");
+
+    if (!loader) return;
+
+    setTimeout(function () {
+        loader.classList.add("loader-hidden");
+
+        setTimeout(function () {
+            loader.remove();
+        }, 650);
+    }, 400);
+});
